@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
     "target": "ES2022",
     "module": "ESNext",
@@ -12,7 +13,10 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "noEmit": true,
-    "types": ["node"]
+    "types": ["node"],
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "incremental": true
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "dist"]

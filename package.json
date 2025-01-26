@@ -5,14 +5,13 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node --experimental-strip-types src/index.ts",
-    "dev": "nodemon src/index.ts"
+    "start": "node --experimental-strip-types node --experimental-strip-types src/index.ts",
+    "dev": "node --experimental-strip-types node --experimental-strip-types --watch src/index.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sibelius",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^3.1.9",
     "prettier": "^3.4.2"
   }
 }
