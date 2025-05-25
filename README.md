@@ -1,4 +1,4 @@
-# esm-pure-experimental-strip-types
+# modern-node-boilerplate
 
 Boilerplate using `--experimental-strip-types` and `nodemon`
 

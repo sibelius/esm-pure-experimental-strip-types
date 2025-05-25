@@ -1,17 +1,19 @@
 {
-  "name": "esm-pure-experimental-strip-types",
+  "name": "modern-node-boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node --experimental-strip-types src/index.ts",
-    "dev": "node --experimental-strip-types --watch src/index.ts"
+    "configp": "node --experimental-default-config-file src/index.ts",
+    "dev": "node --experimental-strip-types --watch src/index.ts",
+    "tsgo": "tsgo"
   },
   "keywords": [],
   "author": "Sibelius",
   "license": "ISC",
   "devDependencies": {
+    "@typescript/native-preview": "7.0.0-dev.20250525.1",
     "prettier": "^3.5.3"
   }
 }
